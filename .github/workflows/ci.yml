@@ -23,7 +23,7 @@ jobs:
     - name: Unit Specs
       uses: sersoft-gmbh/xcodebuild-action@v3.2
       with:
-        project: CoreTest.xcodeproj
+        project: CoreTest/CoreTest.xcodeproj
         scheme: CoreTest
         destination: platform=macOS
         action: test
