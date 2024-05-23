@@ -11,6 +11,7 @@
 		DADCEBD12BFF99A300A0893F /* CoreTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCEBD02BFF99A300A0893F /* CoreTestTests.swift */; };
 		DADCEBD22BFF99A300A0893F /* CoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DADCEBC62BFF99A300A0893F /* CoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DADCEBDC2BFF99C700A0893F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCEBDB2BFF99C700A0893F /* Environment.swift */; };
+		DADCEBDE2BFF9AE900A0893F /* workflows in Resources */ = {isa = PBXBuildFile; fileRef = DADCEBDD2BFF9AE900A0893F /* workflows */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DADCEBCB2BFF99A300A0893F /* CoreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADCEBD02BFF99A300A0893F /* CoreTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTestTests.swift; sourceTree = "<group>"; };
 		DADCEBDB2BFF99C700A0893F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DADCEBDD2BFF9AE900A0893F /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = ../.github/workflows; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		DADCEBB92BFF99A300A0893F = {
 			isa = PBXGroup;
 			children = (
+				DADCEBDD2BFF9AE900A0893F /* workflows */,
 				DADCEBC52BFF99A300A0893F /* CoreTest */,
 				DADCEBCF2BFF99A300A0893F /* CoreTestTests */,
 				DADCEBC42BFF99A300A0893F /* Products */,
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADCEBDE2BFF9AE900A0893F /* workflows in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
