@@ -21,4 +21,8 @@ final class CoreTestTests: XCTestCase {
     func testEnvironment() throws {
         XCTAssertTrue(subject.isCI)
     }
+    
+    func testAll() {
+        XCTAssertEqual(subject.all(), [:])
+    }
 }
