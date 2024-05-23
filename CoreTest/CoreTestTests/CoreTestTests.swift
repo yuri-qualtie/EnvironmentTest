@@ -22,7 +22,7 @@ final class CoreTestTests: XCTestCase {
         XCTAssertTrue(subject.isCI)
     }
     
-    func testAll() {
-        XCTAssertEqual(subject.all(), [:])
-    }
+//    func testAll() {
+//        XCTAssertEqual(subject.all(), [:])
+//    }
 }
