@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "033A1A80-0E7B-4BFB-AAEA-D2C5050AB92C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:CoreTest.xcodeproj",
+        "identifier" : "DADCEBCA2BFF99A300A0893F",
+        "name" : "CoreTestTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -31,6 +31,7 @@
 		DADCEBD02BFF99A300A0893F /* CoreTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTestTests.swift; sourceTree = "<group>"; };
 		DADCEBDB2BFF99C700A0893F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		DADCEBDD2BFF9AE900A0893F /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = ../.github/workflows; sourceTree = "<group>"; };
+		DADCEBDF2BFF9DCC00A0893F /* CoreTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoreTest.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		DADCEBB92BFF99A300A0893F = {
 			isa = PBXGroup;
 			children = (
+				DADCEBDF2BFF9DCC00A0893F /* CoreTest.xctestplan */,
 				DADCEBDD2BFF9AE900A0893F /* workflows */,
 				DADCEBC52BFF99A300A0893F /* CoreTest */,
 				DADCEBCF2BFF99A300A0893F /* CoreTestTests */,
